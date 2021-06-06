@@ -1,0 +1,37 @@
+{
+  "configs": [
+    "global/fastgo-externalsystem.xml",
+    "implementation/FastGo-GetSchedule-Implementation.xml",
+    "global/globalElements.xml",
+    "implementation/FastGo-GetRoutes-Implementation.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:fastgo-externalsystem:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.3.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "log4j2.xml",
+        "config/uat.yaml",
+        "config/dev.yaml",
+        "config/sit.yaml",
+        "config/prd.yaml",
+        "config/local.yaml",
+        "config/ppe.yaml",
+        "application-types.xml",
+        "implementation/FastGo-GetSchedule-Implementation.xml",
+        "implementation/FastGo-GetRoutes-Implementation.xml",
+        "global/globalElements.xml",
+        "global/fastgo-externalsystem.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
